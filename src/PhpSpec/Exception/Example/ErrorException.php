@@ -24,7 +24,6 @@ class ErrorException extends ExampleException
         E_USER_ERROR        => 'error',
         E_USER_WARNING      => 'warning',
         E_USER_NOTICE       => 'notice',
-        E_STRICT            => 'notice',
         E_RECOVERABLE_ERROR => 'error',
     ];
 
