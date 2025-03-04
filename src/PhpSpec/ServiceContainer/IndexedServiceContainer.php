@@ -78,7 +78,7 @@ final class IndexedServiceContainer implements ServiceContainer
      *
      * @throws \InvalidArgumentException if service is not defined
      */
-    public function get(string $id) : object
+    public function get(string $id) : object|array
     {
         if (!array_key_exists($id, $this->services)) {
             if (!array_key_exists($id, $this->definitions)) {

@@ -39,7 +39,7 @@ interface ServiceContainer
      *
      * @throws \InvalidArgumentException if service is not defined
      */
-    public function get(string $id) : object;
+    public function get(string $id) : object|array;
 
     /**
      * Determines whether a service is defined
